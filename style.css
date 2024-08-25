@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Liberation Sans';
+    font-weight: bold;
+    src: url(LiberationSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'Liberation Sans';
+    font-weight: normal;
+    src: url(LiberationSans-Regular.ttf);
+}
+*{--red: #d40000;}
+body{background-color: white; color: black;
+    font-family: 'Liberation Sans', sans-serif;
+    margin: 16px 24px; line-height: 1.25}
+
+header, main{max-width: 40rem;
+    margin: auto}
+header{border-bottom: solid 1px var(--red);
+    padding-bottom: 8px; margin-bottom: 16px}
+
+h1, h2, p{margin: 0 0 12px}
+h3{color:white; background-color: var(--red);
+    padding: 8px}
+
+a{color: black; text-decoration-color: var(--red);}
+a:hover{color: var(--red)}
+
+h2::before{content:"- "; color: var(--red)}
+h2{margin-top: 24px}
+
+img{max-width: 100%}
+
+nav ul{font-size: 1.5rem}
+nav ul a{font-weight: bold;}
+li{list-style-type: "- ";}
+::marker{color: var(--red)}
+
+.coord{font-weight: bold; color: var(--red)}
