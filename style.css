@@ -10,11 +10,9 @@
 }
 *{--red: #d40000;}
 body{background-color: white; color: black;
-    font-family: 'Liberation Sans', sans-serif;
-    margin: 16px 24px; line-height: 1.25}
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    margin: 24px; line-height: 1.25}
 
-header, main{max-width: 40rem;
-    margin: auto}
 header{border-bottom: solid 1px var(--red);
     padding-bottom: 8px; margin-bottom: 16px}
 
