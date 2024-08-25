@@ -8,7 +8,7 @@
     font-weight: normal;
     src: url(Atkinson-Hyperlegible-Regular-102.otf);
 }
-*{--red: #d40000;}
+*{--red: #d40000; transition: all .25s cubic-bezier(.08,.82,.17,1)}
 body{background-color: white; color: black;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     margin: 24px; line-height: 1.25}
