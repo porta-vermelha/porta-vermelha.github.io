@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Liberation Sans';
+    font-family: 'Atkinson Hyperlegible';
     font-weight: bold;
-    src: url(LiberationSans-Bold.ttf);
+    src: url(Atkinson-Hyperlegible-Bold-102.otf);
 }
 @font-face {
-    font-family: 'Liberation Sans';
+    font-family: 'Atkinson Hyperlegible';
     font-weight: normal;
-    src: url(LiberationSans-Regular.ttf);
+    src: url(Atkinson-Hyperlegible-Regular-102.otf);
 }
 *{--red: #d40000;}
 body{background-color: white; color: black;
