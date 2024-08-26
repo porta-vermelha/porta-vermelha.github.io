@@ -11,12 +11,21 @@
 *{--red: #d40000; transition: all .25s cubic-bezier(.08,.82,.17,1)}
 body{background-color: white; color: black;
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    margin: 24px; line-height: 1.25}
+    margin: 24px; line-height: 1.25; max-width: 60rem;}
 
-header{border-bottom: solid 1px var(--red);
-    padding-bottom: 8px; margin-bottom: 16px}
+header{outline: dotted 2px var(--red); width: fit-content; margin-bottom: 32px; 
+    padding: min(12px, 3vw); box-shadow: var(--red) 0 0;
+    background-color: white; position: sticky; top: 24px}
+header h1{font-size: min(2em, 8vw); color: var(--red)}
+header a{margin-right: 24px}
 
-h1, h2, p{margin: 0 0 12px}
+li{font-size: 1.5rem; margin: 8px 0}
+ul a{font-weight: bold; text-decoration-thickness: 2px;}
+ul{padding: 0}
+
+main{max-width: 40rem; margin: auto 0 auto auto}
+
+h1, h2, p{margin: 0}
 h3{color:white; background-color: var(--red);
     padding: 8px}
 
