@@ -11,22 +11,19 @@
 *{--red: #cc1919; transition: all .25s cubic-bezier(.08,.82,.17,1)}
 body{background-color: white; color: black; font-size: 1.125rem;
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    margin: 24px; line-height: 1.25; max-width: 60rem;}
+    margin: 16px; line-height: 1.25; max-width: 60rem;}
 
 ::selection{background-color: var(--red); color: white}
 
-header{outline: dotted 2px var(--red); width: fit-content; margin-bottom: 32px; 
-    padding: min(12px, 3vw); box-shadow: var(--red) 0 0; border-radius: 8px;
-    background-color: color-mix(in srgb, white 90%, transparent); 
-    position: sticky; top: 24px; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);}
-header h1{font-size: min(2em, 8vw); color: var(--red)}
-header a{margin-right: 24px}
+header{width: fit-content; 
+    padding: min(6px, 1.5vw) min(12px, 3vw); background-color: var(--red); }
+header h1{font-size: min(2em, 8vw); color: white}
 
 li{font-size: 1.5rem; margin: 8px 0}
 ul a{font-weight: bold; text-decoration-thickness: 2px;}
-ul{padding: 0}
+ul{padding-left: 16px}
 
-main{max-width: 40rem; margin: auto 0 auto auto}
+main{max-width: 40rem; margin: auto 0 auto auto; padding: 16px}
 
 header h1{margin: 0}
 h1, h2, p{margin-bottom: 8px}
@@ -48,6 +45,11 @@ li{list-style-type: "- ";}
 
 .coord{font-weight: bold; color: var(--red)}
 
-.imagem{max-width: 100%}
-.imagem p{font-style: italic; margin-top: 0}
-.imagem img{margin-bottom: 0}
+.imagens{max-width: 100%; display: flex; gap: 8px}
+.imagens img{width: 100%;}
+
+#voltar{position: sticky; top: 16px; display: flex; gap: 8px}
+#voltar a{background-color: var(--red);padding: 6px 12px 4px; color: white; border: 2px white solid;
+    text-decoration: none; outline-offset: -3px}
+#voltar a:hover{outline: 1px solid var(--red);border-radius: 16px; background-color: white; 
+    color: var(--red);}
