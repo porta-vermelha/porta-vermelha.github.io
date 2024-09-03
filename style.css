@@ -46,9 +46,13 @@ li{list-style-type: "- ";}
 .coord{font-weight: bold; color: var(--red)}
 
 .imagens{max-width: 100%; display: flex; gap: 8px}
-.imagens img{width: 100%;}
+.imagens img{width: 100%; margin: 0}
 
 #voltar{position: sticky; top: 16px; display: flex; gap: 8px}
 #voltar a{background-color: white; padding: 6px 12px 4px; color: var(--red); border: 2px white solid;
     text-decoration: none; outline: 1px solid var(--red); outline-offset: -3px}
 #voltar a:hover{border-radius: 16px; background-color: var(--red); color: white;}
+
+@media (max-width: 400px) {
+    .imagens{flex-direction: column;}
+}
