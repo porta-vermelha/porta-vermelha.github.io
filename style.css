@@ -11,7 +11,7 @@
 *{--red: #cc1919; transition: all .25s cubic-bezier(.08,.82,.17,1)}
 body{background-color: white; color: black; font-size: 1.125rem;
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    margin: 16px; line-height: 1.25; max-width: 60rem;}
+    margin: 16px; line-height: 1.25;}
 
 ::selection{background-color: var(--red); color: white}
 
@@ -23,7 +23,7 @@ li{font-size: 1.5rem; margin: 8px 0}
 ul a{font-weight: bold; text-decoration-thickness: 2px;}
 ul{padding-left: 16px}
 
-main{max-width: 40rem; margin: auto 0 auto auto; padding: 16px}
+main{max-width: 40rem; margin: auto; padding: 16px}
 
 header h1{margin: 0}
 h1, h2, p{margin-bottom: 8px}
