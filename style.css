@@ -8,14 +8,17 @@
     font-weight: normal;
     src: url(Atkinson-Hyperlegible-Regular-102.otf);
 }
-*{--red: #d40000; transition: all .25s cubic-bezier(.08,.82,.17,1)}
-body{background-color: white; color: black;
+*{--red: #cc1919; transition: all .25s cubic-bezier(.08,.82,.17,1)}
+body{background-color: white; color: black; font-size: 1.125rem;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     margin: 24px; line-height: 1.25; max-width: 60rem;}
 
+::selection{background-color: var(--red); color: white}
+
 header{outline: dotted 2px var(--red); width: fit-content; margin-bottom: 32px; 
-    padding: min(12px, 3vw); box-shadow: var(--red) 0 0;
-    background-color: white; position: sticky; top: 24px}
+    padding: min(12px, 3vw); box-shadow: var(--red) 0 0; border-radius: 8px;
+    background-color: color-mix(in srgb, white 90%, transparent); 
+    position: sticky; top: 24px; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);}
 header h1{font-size: min(2em, 8vw); color: var(--red)}
 header a{margin-right: 24px}
 
@@ -25,7 +28,8 @@ ul{padding: 0}
 
 main{max-width: 40rem; margin: auto 0 auto auto}
 
-h1, h2, p{margin: 0}
+header h1{margin: 0}
+h1, h2, p{margin-bottom: 8px}
 h3{color:white; background-color: var(--red);
     padding: 8px}
 
@@ -33,9 +37,9 @@ a{color: black; text-decoration-color: var(--red);}
 a:hover{color: var(--red)}
 
 h2::before{content:"- "; color: var(--red)}
-h2{margin-top: 24px}
+h2{margin-top: 24px;}
 
-img{max-width: 100%}
+img{max-width: 100%; margin: 24px 0; border-radius: 8px;}
 
 nav ul{font-size: 1.5rem}
 nav ul a{font-weight: bold;}
@@ -43,3 +47,7 @@ li{list-style-type: "- ";}
 ::marker{color: var(--red)}
 
 .coord{font-weight: bold; color: var(--red)}
+
+.imagem{max-width: 100%}
+.imagem p{font-style: italic; margin-top: 0}
+.imagem img{margin-bottom: 0}
