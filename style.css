@@ -56,6 +56,9 @@ li{list-style-type: "- ";}
 
 #portas ul{border: dotted black 1px; border-radius: 8px;width: fit-content; padding: 0 8px 0 18px}
 
+#mapa-gráfico{border: 2px solid var(--red); border-radius: 8px; margin: 8px 0}
+#mapa-gráfico p{margin: 16px; font-size: 1.5rem}
+#mapa-gráfico a{font-weight: bold; text-decoration-thickness: 2px;}
 
 .imagens{max-width: 100%; display: flex; gap: 8px}
 .imagens img{width: 100%; margin: 0}
