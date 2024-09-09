@@ -45,15 +45,16 @@ li{list-style-type: "- ";}
 ::marker{color: var(--red)}
 
 .escada > b{background-color: var(--red); color:white; padding: 2px 4px 0; border-radius: 4px}
-.azul{background-color: var(--blue); color: white; padding: 2px 4px 0; border-radius: 4px;}
-.verde{background-color: var(--green); padding: 2px 4px 0; border-radius: 4px;}
-.pink{background-color: var(--pink); padding: 2px 4px 0; border-radius: 4px;}
+.azul{border: solid 1px var(--blue); padding: 2px 4px 0; border-radius: 4px;}
+.verde{border: solid 1px var(--green); padding: 2px 4px 0; border-radius: 4px;}
+.pink{border: solid 1px var(--pink); padding: 2px 4px 0; border-radius: 4px;}
 .elevador > b{background-color: black; color: white; padding: 2px 4px 0; border-radius: 4px;}
 .escada, .elevador{margin: 24px 0}
 .escada ul, .elevador ul{margin: 4px 0}
 .passarela{list-style-type: " "; font-weight: bold; font-size: 2rem; background-color: var(--red);
     color: white; padding: 8px 16px; margin: 24px 0}
 
+.porta{border: solid 1px var(--red); border-radius: 4px; padding: 2px 4px 0}
 #portas ul{border: dotted black 1px; border-radius: 8px;width: fit-content; padding: 0 8px 0 18px}
 
 #mapa-gráfico{border: 2px solid var(--red); border-radius: 8px; margin: 8px 0}

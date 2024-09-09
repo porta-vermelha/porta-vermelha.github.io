@@ -13,7 +13,7 @@
             <a href="#">↑&nbsp;topo</a>
         </nav>
             <div id="mapa-gráfico"><p><a href="mapagráfico.svg">Mapa gráfico</a> (1.3 MB)<br>
-            (Mapas das seções sul, centro e norte em breve!)</p></div>
+            <span style="font-size: 1.125rem">(Mapas das seções sul, centro e norte em breve!)</span></p></div>
             <img src="placa-bt.jpg" style="float: left; width: min(40%, 30vw, 150px); margin: 16px 3vmin 1.5vmin 0">
             <p>O térreo do bloco B é majoritariamente <b>Anfiteatros</b>, que podem ser usados para qualquer curso, 
                 principalmente nas <b>seções sul e norte</b>.<br>
@@ -22,9 +22,9 @@
                 se puder e precisar, o banheiro mais próximo está provavelmente no 1º Andar. Há também <b>lixeiras e bebedouros</b> (2 bebedouros no norte e no sul, só 1 no centro)</p>
             <img class="minimapa" src="minimapa.svg">
             <ul>
-                <li id="bebedouros"><b style="background-color: var(--blue); color:white; padding: 2px 4px 0; border-radius: 4px;">Bebedouros:</b> 
+                <li id="bebedouros"><span style="background-color: var(--blue); color:white; padding: 2px 4px 0; border-radius: 4px;">Bebedouros:</span> 
                 010, 185, 330, 555, 672</li>
-                <li id="lixeiras"><b style="background-color: var(--green); padding: 2px 4px 0; border-radius: 4px;">Lixeiras:</b> 
+                <li id="lixeiras"><span style="background-color: var(--green); padding: 2px 4px 0; border-radius: 4px;">Lixeiras:</span> 
                     117, 204, 282, 477, 573, 654 (também no Udefinho e Ceubinho)</li>
                 <li id="escadas"><b style="background-color: var(--red); color: white; padding: 2px 4px 0; border-radius: 4px;">Escadas:</b> 
                     024, 069, 165, 218, 258, 306, 384, 432, 471, 525, 621, 666</li>   
@@ -33,129 +33,133 @@
             </ul>
             <h2>Lista de portas</h2>
             <ul id="portas">
-                <li><b>006:</b> Sala de Aula</li>
-                <li><b class="azul">010:</b> Bebedouro</li>
-                <li><b>015: Corredor</b><ul>
-                    <li><b>012/62, 013/63, 016/62:</b> Salas de Aula</li>
-                    <li><b>014/64:</b> Sala de Professor - IP</li>
+                <li>006: Sala de Aula</li>
+                <li><span class="azul">010:</span> Bebedouro</li>
+                <li><b>015: </b> Corredor<ul>
+                    <li>012/62, 013/63, 016/62: Salas de Aula</li>
+                    <li>014/64: Sala de Professor - IP</li>
                 </li></ul>
                 <li class="escada"><b>Escada</b><ul>
-                    <li><b>027/60:</b> Sala de Aula</li>
+                    <li>027/60: Sala de Aula</li>
                 </ul></li>
-                <li><b>042:</b> Anfiteatro 2</li>
-                <li><b>048:</b> Sala de Aula</li>
-                <li><b>049:</b> Anfiteatro 3</li>
+                <li>042: Anfiteatro 2</li>
+                <li>048: Sala de Aula</li>
+                <li>049: Anfiteatro 3</li>
                 <li class="escada"><b>Escada</b><ul>
-                    <li><b>072:</b> Sala de Aula</li>
+                    <li>072: Sala de Aula</li>
                 </ul></li>
-                <li><b>096:</b> Anfiteatro 4</li>
-                <li><b>102:</b> Sala de Aula</li>
-                <li><b>103:</b> Anfiteatro 5</li>
-                <li><b class="verde">117:</b> Lixeira</li>
+                <li>096: Anfiteatro 4</li>
+                <li>102: Sala de Aula</li>
+                <li>103: Anfiteatro 5</li>
+                <li><span class="verde">117:</span> Lixeira</li>
                 <li class="elevador"><b>Elevador</b><ul>
-                    <li><b class="pink">120/61:</b> Banheiro feminino com fraldário</li>
-                    <li><b class="pink">120/63:</b> Banheiro masculino com fraldário</li>
+                    <li><span class="pink">120/61:</span> Banheiro feminino com fraldário</li>
+                    <li><span class="pink">120/63:</span> Banheiro masculino com fraldário</li>
                 </ul></li>
-                <li><b>138:</b> Anfiteatro 6</li>
-                <li><b>143:</b> Sala de Aula</li>
-                <li><b>145:</b> Anfiteatro 7</li>
+                <li>138: Anfiteatro 6</li>
+                <li>143: Sala de Aula</li>
+                <li>145: Anfiteatro 7</li>
                 <li class="escada"><b>Escada</b><ul>
-                    <li><b>168:</b> Sala de Aula</li>
+                    <li>168: Sala de Aula</li>
                 </ul></li>
-                <li><b class="azul">185:</b> Bebedouro</li>
-                <li><b>186:</b> Anfiteatro 8</li>
-                <li><b>192:</b> Sala de Aula</li>
-                <li><b>193:</b> Anfiteatro 9</li>
+                <li><span class="azul">185:</span> Bebedouro</li>
+                <li>186: Anfiteatro 8</li>
+                <li>192: Sala de Aula</li>
+                <li>193: Anfiteatro 9</li>
                 <li class="escada"><b>Escada</b><ul>
                     <li>Centro Acadêmico de Letras - CALET</li>
                 </ul></li>
+
                 <li class="passarela">UDEFINHO</li>
-                <li><b>240:</b> Núcleo Sonoro - Coral da UnB - DEA/DAC</li>
-                <li><b>241:</b> Anfiteatro 10</li>
+
+                <li>240: Núcleo Sonoro - Coral da UnB - DEA/DAC</li>
+                <li>241: Anfiteatro 10</li>
                 <li class="escada"><b>Escada</b><ul>
-                    <li><b>260:</b> PET Física</li>
+                    <li>260: PET Física</li>
                 </ul></li>
-                <li><b>270:</b> Laboratório de Física 1A</li>
-                <li><b>274:</b> Laboratório de Física 1B</li>
-                <li><b class="verde">282:</b> Lixeira</li>
-                <li>Salas de Alunos de Pós-Graduação - Conjunto 1<ul>
-                    <li><b>286/57, 286/58, 286/61, 286/64, 287/67, 288/67, 289/64, 289/61, 289/58, 289/57:</b> Salas de Alunes</li>
+                <li>270: Laboratório de Física 1A</li>
+                <li>274: Laboratório de Física 1B</li>
+                <li><span class="verde">282:</span> Lixeira</li>
+                <li><b>Salas de Alunos de Pós-Graduação - Conjunto 1</b><ul>
+                    <li>286/57, 286/58, 286/61, 286/64, 287/67, 288/67, 289/64, 289/61, 289/58, 289/57: Salas de Alunes</li>
                 </ul></li>
-                <li><b>Janelas:</b> Secretaria de Graduação do IF</li>
-                <li><b>297:</b> Direção do IF</li>
-                <li><b>Janelas:</b> Secretaria de Pós-Graduação do IF</li>
+                <li>Janelas: Secretaria de Graduação do IF</li>
+                <li>297: Direção do IF</li>
+                <li>Janelas: Secretaria de Pós-Graduação do IF</li>
                 <li class="escada"><b>Escada</b><ul>
-                    <li><b>308:</b> Auditório do Instituto de Física</li>
-                    <li><b>310:</b> Empresa Júnior de Física</li>
+                    <li>308: Auditório do Instituto de Física</li>
+                    <li>310: Empresa Júnior de Física</li>
                 </ul></li>
-                <li><b>317: </b> Salas de Alunos de Pós-Graduação - Conjunto 1<ul>
-                    <li><b>315/57, 315/58, 315/61, 315/64, 316/67, 317/67, 318/64, 318/61, 318/58, 318/57:</b> Salas de Alunes</li>
+                <li><b>317: Salas de Alunos de Pós-Graduação - Conjunto 1</b><ul>
+                    <li>315/57, 315/58, 315/61, 315/64, 316/67, 317/67, 318/64, 318/61, 318/58, 318/57: Salas de Alunes</li>
                 </ul></li>
-                <li><b class="azul">329:</b> Bebedouro</li>
-                <li><b>330:</b> Laboratório de Física 2A</li>
-                <li><b>334:</b> Laboratório de Física 2B</li>     
+                <li><span class="azul">329:</span> Bebedouro</li>
+                <li>330: Laboratório de Física 2A</li>
+                <li>334: Laboratório de Física 2B</li>     
                 <li class="elevador"><b>Elevador</b><ul>
-                    <li><b class="pink">343/60:</b> Banheiro masculino com fraldário</li>
-                    <li><b class="pink">349/60:</b> Banheiro feminino com fraldário</li>
+                    <li><span class="pink">343/60:</span> Banheiro masculino com fraldário</li>
+                    <li><span class="pink">349/60:</span> Banheiro feminino com fraldário</li>
                 </ul></li> 
-                <li><b>366, 370:</b> Centro Acadêmico de Física - CAFIS</li>  
-                <li><b>366/60:</b> Laboratório de Física 3</li>  
-                <li><b>370/60:</b> Laboratório de Física 4</li>  
+                <li>366, 370: Centro Acadêmico de Física - CAFIS</li>  
+                <li>366/60: Laboratório de Física 3</li>  
+                <li>370/60: Laboratório de Física 4</li>  
                 <li>Sala de Professores Substitutos do Departamento de Matemática - MAT</li>  
-                <li><b>380:</b> Centro Acadêmico de Sociologia - CASO</li>  
+                <li>380: Centro Acadêmico de Sociologia - CASO</li>  
                 <li class="escada"><b>Escada</b><ul>
-                    <li><b>382:</b> Laboratório de Informática - LABIE/IE</li>
+                    <li>382: Laboratório de Informática - LABIE/IE</li>
                 </ul></li>
-                <li><b>395:</b> Anexo Departamento de Matemática - MAT</li>
-                <li><b>Janela:</b> Sala de Atendimento do Instituto de Ciências Exatas - IE</li>
-                <li><b>417:</b> Laboratório Didático de Ensino de Física - LADEF</li>
+                <li>395: Anexo Departamento de Matemática - MAT</li>
+                <li>Janela: Sala de Atendimento do Instituto de Ciências Exatas - IE</li>
+                <li>417: Laboratório Didático de Ensino de Física - LADEF</li>
                 <li>Experimentoteca - A Física para Todos</li>
                 <li class="escada"><b>Escada</b><ul>
                     <li>Centro Acadêmico de Serviço Social - CASESO</li>
                 </ul></li>
-                <li><b>450:</b> Anfiteatro 11</li>
+                <li>450: Anfiteatro 11</li>
                 <li>Decanato Central dos Estudantes - DCE</li>
+
                 <li class="passarela">CEUBINHO</li>
+
                 <li class="escada"><b>Escada</b><ul>
-                    <li><b>470:</b> Centro Acadêmico de Ciências da Computação- CACOMP</li>
+                    <li>470: Centro Acadêmico de Ciências da Computação- CACOMP</li>
                 </ul></li>
-                <li><b class="verde">477:</b> Lixeira</li>
-                <li><b>498:</b> Anfiteatro 12</li>
-                <li><b>504:</b> Sala de Aula</li>
-                <li><b>505:</b> Anfiteatro 13</li>
+                <li><span class="verde">477:</span> Lixeira</li>
+                <li>498: Anfiteatro 12</li>
+                <li>504: Sala de Aula</li>
+                <li>505: Anfiteatro 13</li>
                 <li class="escada"><b>Escada</b><ul>
-                    <li><b>524:</b> Sala de Aula</li>
+                    <li>524: Sala de Aula</li>
                 </ul></li>
-                <li><b>546:</b> Anfiteatro 14</li>
-                <li><b>552:</b> Sala de Aula</li>
-                <li><b>553:</b> Anfiteatro 15</li>
-                <li><b class="azul">555:</b> Bebedouro</li>
+                <li>546: Anfiteatro 14</li>
+                <li>552: Sala de Aula</li>
+                <li>553: Anfiteatro 15</li>
+                <li><span class="azul">555:</span> Bebedouro</li>
                 <li class="elevador"><b>Elevador</b><ul>
-                    <li><b class="pink">570/60:</b> Banheiro feminino acessível</li>
-                    <li><b class="pink">570/62:</b> Banheiro masculino acessível</li>
-                    <li><b class="pink">570/63:</b> Banheiro feminino</li>
-                    <li><b class="pink">571/64:</b> Banheiro masculino</li>
+                    <li><span class="pink">570/60:</span> Banheiro feminino acessível</li>
+                    <li><span class="pink">570/62:</span> Banheiro masculino acessível</li>
+                    <li><span class="pink">570/63:</span> Banheiro feminino</li>
+                    <li><span class="pink">571/64:</span> Banheiro masculino</li>
                 </ul></li> 
-                <li><b class="verde">573:</b> Lixeira</li>
-                <li><b>588:</b> Anfiteatro 16</li>
-                <li><b>594:</b> Sala de Aula</li>
-                <li><b>595:</b> Anfiteatro 17</li>
+                <li><span class="verde">573:</span> Lixeira</li>
+                <li>588: Anfiteatro 16</li>
+                <li>594: Sala de Aula</li>
+                <li>595: Anfiteatro 17</li>
                 <li class="escada"><b>Escada</b><ul>
                     <li>Sala de Aula</li>
                 </ul></li>
-                <li><b>642:</b> Anfiteatro 18</li>
-                <li><b>648:</b> Sala de Aula</li>
-                <li><b>649:</b> Anfiteatro 19</li>
-                <li><b class="verde">654:</b> Lixeira</li>
+                <li>642: Anfiteatro 18</li>
+                <li>648: Sala de Aula</li>
+                <li>649: Anfiteatro 19</li>
+                <li><span class="verde">654:</span> Lixeira</li>
                 <li class="escada"><b>Escada</b><ul>
                     <li>Centro Acadêmico de Geografia - CAGEA</li>
                 </ul></li>
-                <li><b class="azul">672:</b> Bebedouro</li>
+                <li><span class="azul">672:</span> Bebedouro</li>
                 <li><b>Corredor: </b><ul>
                     <li>Programa de Apoio a Pessoas com Necessidades Especiais - PPNE/DAC</li>
-                    <li><b>679/62:</b> ATHENS UnB</li>
+                    <li>679/62: ATHENS UnB</li>
                 </li></ul>
-                <li><b>685:</b> Sala de Aula</li>
+                <li>685: Sala de Aula</li>
             </ul>
     </main>
     </body>
