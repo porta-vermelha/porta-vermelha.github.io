@@ -8,7 +8,7 @@
     font-weight: normal;
     src: url(Atkinson-Hyperlegible-Regular-102.otf);
 }
-*{--red: #cc1919; --green: #6dc500; --blue: #4861c1; --pink: #f5a8ff;
+*{--red: #cc1919; --green: #7ce200; --blue: #4861c1;
     transition: all .25s cubic-bezier(.08,.82,.17,1)}
 body{background-color: white; color: black; font-size: 1.125rem;
     font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -27,7 +27,7 @@ ul{padding-left: 16px}
 main{max-width: 40rem; margin: auto; padding: 16px}
 
 header h1{margin: 0}
-h1, h2, p{margin: 32px 0}
+h1, h2, p{margin: 1rem 0}
 h3{color:white; background-color: var(--red);
     padding: 8px}
 
@@ -46,7 +46,6 @@ li{list-style-type: "- ";}
 .escada > b{background-color: var(--red); color:white; padding: 2px 4px 0; border-radius: 4px}
 .azul{border: solid 1px var(--blue); padding: 2px 4px 0; border-radius: 4px;}
 .verde{background-color: var(--green); padding: 3px 5px 0; border-radius: 4px;}
-.pink{background-color: var(--pink); padding: 3px 5px 0; border-radius: 4px;}
 .elevador > b{background-color: black; color: white; padding: 2px 4px 0; border-radius: 4px;}
 .escada, .elevador{margin: 32px 0}
 .escada ul, .elevador ul{margin: 4px 0}
@@ -59,6 +58,8 @@ li{list-style-type: "- ";}
 #mapa-gráfico{border: 2px solid var(--red); border-radius: 8px; margin: 8px 0}
 #mapa-gráfico p{margin: 16px; font-size: 1.5rem}
 #mapa-gráfico a{font-weight: bold; text-decoration-thickness: 2px;}
+
+.minimapa{margin: 0}
 
 .imagens{max-width: 100%; display: flex; gap: 8px}
 .imagens img{width: 100%; margin: 0}
